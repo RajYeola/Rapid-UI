@@ -1,0 +1,54 @@
+.badge-icon {
+    position: relative;
+    width: fit-content;
+}
+
+.badge-icon img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.label-bell {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #178344;
+    top: 0.1rem;
+    right: 0.12rem;
+}
+
+.label-cart {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #178344;
+    bottom: 2.25rem;
+    left: 2rem;
+}
+
+.badge-avatar {
+    position: relative;
+    width: fit-content;
+}
+
+.badge-avatar img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.label-avatar {
+    font-size: 0.9rem;
+    height: 0.9rem;
+    width: 0.9rem;
+    background-color: #f44336;
+    top: 0;
+    right: 0;
+}
