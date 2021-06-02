@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
 
+:root {
+    --primary: #2F4254;
+    --secondary: #d5a249;
+}
+
 * {
     margin: 0;
     padding: 0;
