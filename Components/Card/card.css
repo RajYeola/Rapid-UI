@@ -205,6 +205,14 @@
     display: inline-flex;
     justify-content: space-between;
     font-size: 1rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.btn-icon i {
+    position: absolute;
+    left: 0.75rem;
+    top: 0.6rem;
 }
 
 .btn-icon img {
