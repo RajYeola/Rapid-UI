@@ -12,11 +12,6 @@ body {
     background-color: #F9FAFB;
 }
 
-* {
-    --primary: #2F4254;
-    --secondary: #d5a249;
-}
-
 .site-nav {
     position: fixed;
     top: 0;
