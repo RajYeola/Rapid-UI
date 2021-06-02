@@ -1,6 +1,7 @@
 /* Display */
 .disp-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Padding */
