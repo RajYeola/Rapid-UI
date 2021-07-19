@@ -1,95 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
 
 :root {
-    --primary: #2F4254;
-    --secondary: #d5a249;
+  --primary: #2f4254;
+  --secondary: #d5a249;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #F9FAFB;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f9fafb;
 }
 
 .site-nav {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    margin-left: 5rem;
-    margin-top: 7rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-left: 5rem;
+  margin-top: 7rem;
+  overflow-y: scroll;
 }
 
 .nav-main-heading {
-    font-size: 1.1rem;
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem;
-    display: block;
-    width: 100%;
-    color: #6B7280;
-    font-weight: bold;
-    margin-top: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  display: block;
+  width: 100%;
+  color: #6b7280;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 
 .nav-comp-section {
-    margin-top: 0.5rem;
-    padding-left: 0.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .component-links {
-    list-style: none;
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
+  list-style: none;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
 
 .component-links > a:hover {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .component-links > a {
-    display: block;
-    text-decoration: none;
-    padding: 0.25rem 0.5rem;
-    color: #6B7280;
-    width: 100%;
+  display: block;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  color: #6b7280;
+  width: 100%;
 }
 
 .component-active {
-    color: var(--primary) !important;
-    font-weight: bolder;
+  color: var(--primary) !important;
+  font-weight: bolder;
 }
 
-.nav-getstarted > a{
-    color: #6B7280;
-    text-decoration: none;
+.nav-getstarted > a {
+  color: #6b7280;
+  text-decoration: none;
 }
 
 .nav-getstarted > a:hover {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .comp-disp {
-    max-width: 50%;
-    margin-left: 25rem;
-    margin-top: 7rem;
+  max-width: 50%;
+  margin-left: 25rem;
+  margin-top: 7rem;
 }
 
 .comp-disp-header {
-    color: #222;
-    margin: 2rem 0;
-    font-size: 2rem;
+  color: #222;
+  margin: 2rem 0;
+  font-size: 2rem;
 }
 
 .comp-disp-container {
-    align-items: center;
+  align-items: center;
 }
 
 .sub-comp-header {
-    color: #222;
-    margin-top: 2rem;
-    font-size: 1.4rem;
+  color: #222;
+  margin-top: 2rem;
+  font-size: 1.4rem;
 }

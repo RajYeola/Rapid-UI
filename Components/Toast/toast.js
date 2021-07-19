@@ -1,4 +1,5 @@
-function showSuccessToast() {
+let showSuccessToast = document.getElementById("show-success-toast");
+showSuccessToast.addEventListener("click", () => {
   let successToast = document.getElementById("success-toast");
 
   successToast.className = "show";
@@ -6,9 +7,10 @@ function showSuccessToast() {
   setTimeout(function () {
     successToast.className = successToast.className.replace("show", "");
   }, 3000);
-}
+});
 
-function showWarningToast() {
+let showWarningToast = document.getElementById("show-warning-toast");
+showWarningToast.addEventListener("click", () => {
   let warningToast = document.getElementById("warning-toast");
 
   warningToast.className = "show";
@@ -16,9 +18,10 @@ function showWarningToast() {
   setTimeout(function () {
     warningToast.className = warningToast.className.replace("show", "");
   }, 3000);
-}
+});
 
-function showDangerToast() {
+let showDangerToast = document.getElementById("show-danger-toast");
+showDangerToast.addEventListener("click", () => {
   let dangerToast = document.getElementById("danger-toast");
 
   dangerToast.className = "show";
@@ -26,4 +29,4 @@ function showDangerToast() {
   setTimeout(function () {
     dangerToast.className = dangerToast.className.replace("show", "");
   }, 3000);
-}
+});

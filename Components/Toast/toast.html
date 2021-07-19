@@ -76,13 +76,13 @@
     <main class="comp-disp">
       <h1 class="comp-disp-header">Toast</h1>
       <div class="comp-disp-container my-05 disp-flex">
-        <button class="btn btn-success mx-05" onclick="showSuccessToast()">
+        <button class="btn btn-success mx-05" id="show-success-toast">
           Success Toast
         </button>
-        <button class="btn btn-warning mx-05" onclick="showWarningToast()">
+        <button class="btn btn-warning mx-05" id="show-warning-toast">
           Warning Toast
         </button>
-        <button class="btn btn-danger mx-05" onclick="showDangerToast()">
+        <button class="btn btn-danger mx-05" id="show-danger-toast">
           Danger Toast
         </button>
 
@@ -91,18 +91,12 @@
         <div id="danger-toast">Danger Toast!</div>
       </div>
       <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-success%2520mx-05%2522%2520onclick%253D%2522showSuccessToast%28%29%2522%253E%250A%2509Success%2520Toast%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2520mx-05%2522%2520onclick%253D%2522showWarningToast%28%29%2522%253E%250A%2509Warning%2520Toast%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2520mx-05%2522%2520onclick%253D%2522showDangerToast%28%29%2522%253E%250A%2509Danger%2520Toast%250A%253C%252Fbutton%253E%250A%250A%253Cdiv%2520id%253D%2522success-toast%2522%253ESuccessful%2520Toast%21%253C%252Fdiv%253E%250A%253Cdiv%2520id%253D%2522warning-toast%2522%253EWarning%2520Toast%21%253C%252Fdiv%253E%250A%253Cdiv%2520id%253D%2522danger-toast%2522%253EDanger%2520Toast%21%253C%252Fdiv%253E"
-        style="
-          width: 730px;
-          height: 420px;
-          border: 0;
-          transform: scale(1);
-          overflow: hidden;
-        "
-        sandbox="allow-scripts allow-same-origin"
-      >
+  src="https://carbon.now.sh/embed?bg=rgba%28249%2C250%2C251%2C1%29&t=seti&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%2520id%253D%2522show-success-toast%2522%253E%250A%2509Success%2520Toast%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%2520id%253D%2522show-warning-toast%2522%253E%250A%2509Warning%2520Toast%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%2520id%253D%2522show-danger-toast%2522%253E%250A%2509Danger%2520Toast%250A%253C%252Fbutton%253E%250A%250A%253Cdiv%2520id%253D%2522success-toast%2522%253ESuccessful%2520Toast%21%253C%252Fdiv%253E%250A%253Cdiv%2520id%253D%2522warning-toast%2522%253EWarning%2520Toast%21%253C%252Fdiv%253E%250A%253Cdiv%2520id%253D%2522danger-toast%2522%253EDanger%2520Toast%21%253C%252Fdiv%253E"
+  style="width: 635px; height: 420px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
       </iframe>
+      <script type="text/javascript" src="./toast.js"></script>
     </main>
-    <script type="text/javascript" src="./toast.js"></script>
   </body>
 </html>
