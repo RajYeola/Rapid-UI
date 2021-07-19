@@ -1,5 +1,6 @@
 let showSuccessToast = document.getElementById("show-success-toast");
 showSuccessToast.addEventListener("click", () => {
+  console.log("Working");
   let successToast = document.getElementById("success-toast");
 
   successToast.className = "show";
