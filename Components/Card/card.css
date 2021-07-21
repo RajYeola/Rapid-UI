@@ -1,281 +1,309 @@
 .btn {
-    border: none;
-    padding: 0.5rem 0.75rem;
-    font-family: inherit;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    width: fit-content;
-    cursor: pointer;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  width: fit-content;
+  cursor: pointer;
 }
 
 .btn-secondary {
-    background-color: var(--secondary);
-    color: #fff;
-    transition: all 0.2s;
+  background-color: var(--secondary);
+  color: #fff;
+  transition: all 0.2s;
 }
 
 .btn-secondary:hover {
-    background-color: #bF9141;
+  background-color: #bf9141;
 }
 
 .card {
-    width: 250px;
-    border-radius: 15px;
-    background-color: #fff;
-    transition: transform 0.2s ease-in;
-    position: relative;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #fff;
+  transition: transform 0.2s ease-in;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .card img {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .card-header {
-    width: 250px;
-    height: 200px;
-    display: block;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+  width: 250px;
+  height: 200px;
+  display: block;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .card-heading {
-    color: var(--secondary);
-    text-align: center;
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding: 0.5rem 0;
+  color: var(--secondary);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
 }
 
-.card-details, .card-price {
-    padding: 0 1rem 1rem 1rem;
+.card-details,
+.card-price {
+  padding: 0 1rem 1rem 1rem;
 }
 
 .card .btn {
-    margin: 0 0 1rem 1rem;
+  margin: 0 0 1rem 1rem;
 }
 
 .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-product-header {
-    width: 250px;
-    height: 300px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+  width: 250px;
+  height: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .card-discount-price {
-    font-weight: bold;
-    padding-right: 0.25rem;
+  font-weight: bold;
+  padding-right: 0.25rem;
 }
 
 .card-original-price {
-    text-decoration: line-through;
-    color: #999;
-    padding-right: 0.25rem;
+  text-decoration: line-through;
+  color: #999;
+  padding-right: 0.25rem;
 }
 
 .card-discount {
-    color: #178344;
-    font-weight: bold;
+  color: #178344;
+  font-weight: bold;
 }
 
 .card-badge {
-    position: absolute;
-    top: 1rem;
-    left: 0.5rem;
-    font-size: 0.75rem;
-    color: #fff;
-    padding: 0.35rem;
-    border-radius: 3px;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  font-size: 0.75rem;
+  color: #fff;
+  padding: 0.35rem;
+  border-radius: 3px;
 }
 
 .card-badge-trend {
-    background: linear-gradient(to right, #2193b0, #6dd5ed);
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
 }
 
 .card-badge-feature {
-    background: linear-gradient(to right, #fd706c, #fca56c);
+  background: linear-gradient(to right, #fd706c, #fca56c);
 }
 
 .card-dismiss {
-    position: absolute;
-    top: 0.25rem;
-    right: 0.5rem;
-    /* color: rgb(69, 69, 69); */
-    color: #777;
-    background-color: transparent;
-    border: none;
-    padding: 0.2rem 0.4rem;
-    font-size: 1.5rem;
-    cursor: pointer;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.5rem;
+  /* color: rgb(69, 69, 69); */
+  color: #777;
+  background-color: transparent;
+  border: none;
+  padding: 0.2rem 0.4rem;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .card-dismiss:hover {
-    color: #444;
+  color: #444;
 }
 
 .card-wishlist {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .card-wishlist:hover {
-    color: rgb(255, 62, 108);
+  color: rgb(255, 62, 108);
+}
+
+.card-out-of-stock {
+  border-radius: 15px;
+  opacity: 0.3;
+}
+
+.card-out-of-stock button,
+.card-out-of-stock svg {
+  display: none;
+}
+
+.in-stock-text {
+  display: none;
+}
+
+.out-of-stock-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-horizontal {
-    display: flex;
-    background-color: #fff;
-    max-height: 170px;
-    width: 885px;
-    border: 1px solid #eee;
-    transition: 0.2s all;
+  display: flex;
+  background-color: #fff;
+  max-height: 170px;
+  width: 885px;
+  border: 1px solid #eee;
+  transition: 0.2s all;
 }
 
 .card-horizontal .card-header {
-    width: 140px;
-    height: 170px;
+  width: 140px;
+  height: 170px;
 }
 
 .card-horizontal .card-horizontal-body {
-    width: 100%;
-    display: flex;
-    padding: 1.5rem 1rem;
+  width: 100%;
+  display: flex;
+  padding: 1.5rem 1rem;
 }
 
 .card-horizontal .card-horizontal-body .card-heading {
-    font-weight: normal;
-    width: 40%;
-    margin-bottom: 1rem;
+  font-weight: normal;
+  width: 40%;
+  margin-bottom: 1rem;
 }
 
 .card-horizontal .card-horizontal-body .card-heading a {
-    text-decoration: none;
-    color: #444;
+  text-decoration: none;
+  color: #444;
 }
 
 .card-horizontal .card-horizontal-body .card-heading a:hover {
-    color: #000;
+  color: #000;
 }
 
 .card-horizontal .card-horizontal-body .card-update-info {
-    display: flex;
-    width: 30%;
-    padding: 0.5rem 0;
+  display: flex;
+  width: 30%;
+  padding: 0.5rem 0;
 }
 
-.cart-qty, .cart-size {
-    margin: 0 1rem;
-    display: flex;
-    position: relative;
+.cart-qty,
+.cart-size {
+  margin: 0 1rem;
+  display: flex;
+  position: relative;
 }
 
-.cart-qty > :first-child, .cart-size > :first-child {
-    padding-right: 0.5rem;
+.cart-qty > :first-child,
+.cart-size > :first-child {
+  padding-right: 0.5rem;
 }
 
-.cart-qty > :nth-child(2), .cart-size > :nth-child(2) {
-    font-weight: bold;
+.cart-qty > :nth-child(2),
+.cart-size > :nth-child(2) {
+  font-weight: bold;
 }
 
 .card-horizontal .card-horizontal-body .btn {
-    width: 30%;
-    margin-left: 1rem;
+  width: 30%;
+  margin-left: 1rem;
 }
 
 .fa-angle-down {
-    position: absolute;
-    right: -0.75rem;
-    top: 0.4rem;
-    cursor: pointer;
-    color: #666;
+  position: absolute;
+  right: -0.75rem;
+  top: 0.4rem;
+  cursor: pointer;
+  color: #666;
 }
 
 .btn-icon {
-    display: inline-flex;
-    justify-content: space-between;
-    font-size: 1rem;
-    padding-left: 2rem;
-    position: relative;
+  display: inline-flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding-left: 2rem;
+  position: relative;
 }
 
 .btn-icon i {
-    position: absolute;
-    left: 0.75rem;
-    top: 0.6rem;
+  position: absolute;
+  left: 0.75rem;
+  top: 0.6rem;
 }
 
 .btn-icon img {
-    width: 1.5rem;
-    padding-right: 0.25rem;
+  width: 1.5rem;
+  padding-right: 0.25rem;
 }
 
 .btn-icon .label {
-    padding-left: 0.25rem;
+  padding-left: 0.25rem;
 }
 
 .price-info-cart-update {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .price-info-cart-update .product-saving {
-    font-size: 1rem;
-    padding: 0.625rem 0;
+  font-size: 1rem;
+  padding: 0.625rem 0;
 }
 
 .price-info-cart-update .product-saving .cart-total-saving-text {
-    color: var(--secondary);
-    font-weight: bold;
-    font-size: 0.95rem;
+  color: var(--secondary);
+  font-weight: bold;
+  font-size: 0.95rem;
 }
 
 .price-info-cart-update .price-info-top {
-    display: flex;
-    font-size: 0.9rem;
-    color: var(--secondary);
-    font-weight: bold;
+  display: flex;
+  font-size: 0.9rem;
+  color: var(--secondary);
+  font-weight: bold;
 }
 
 .price-info-cart-update .price-info-top .original-price {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .price-info-cart-update .price-info-top .discount {
-    padding-left: 0.2rem;
+  padding-left: 0.2rem;
 }
 
 .price-info-cart-update .net-price {
-    width: fit-content;
-    background-color: #e1ecf1;
-    border-left: 5px solid #176c93;
-    padding: 0 0.8rem;
-    color: #333;
-    font-weight: bolder;
+  width: fit-content;
+  background-color: #e1ecf1;
+  border-left: 5px solid #176c93;
+  padding: 0 0.8rem;
+  color: #333;
+  font-weight: bolder;
 }
 
 .price-info-cart-update .cart-actions {
-    display: flex;
-    padding-top: 1.5rem;
-    color: var(--primary);
-    font-weight: bold;
-    font-size: 0.9rem;
+  display: flex;
+  padding-top: 1.5rem;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .price-info-cart-update .cart-actions .btn-delete {
-    cursor: pointer;
-    margin-right: 2.25rem;
+  cursor: pointer;
+  margin-right: 2.25rem;
 }
 
 .price-info-cart-update .cart-actions .btn-save-wishlist {
-    cursor: pointer;
+  cursor: pointer;
 }
