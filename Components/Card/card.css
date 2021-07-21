@@ -307,3 +307,9 @@
 .price-info-cart-update .cart-actions .btn-save-wishlist {
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .out-of-stock-text {
+    font-size: 0.8125rem;
+  }
+}
