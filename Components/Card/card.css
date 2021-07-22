@@ -136,11 +136,6 @@
   opacity: 0.3;
 }
 
-.card-out-of-stock button,
-.card-out-of-stock svg {
-  display: none;
-}
-
 .in-stock-text {
   display: none;
 }
@@ -310,6 +305,6 @@
 
 @media screen and (max-width: 768px) {
   .out-of-stock-text {
-    font-size: 0.8125rem;
+    font-size: 0.78125rem;
   }
 }
