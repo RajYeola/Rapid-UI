@@ -63,6 +63,27 @@
   width: 100%;
 }
 
+/* Colors */
+.color-primary {
+  color: var(--primary);
+}
+
+.color-success {
+  color: var(--success);
+}
+
+.color-secondary {
+  color: var(--secondary);
+}
+
+.color-danger {
+  color: var(--danger);
+}
+
+.color-warning {
+  color: var(--warning);
+}
+
 /* Padding */
 .p-05 {
   padding: 0.5em;
