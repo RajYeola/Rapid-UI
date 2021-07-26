@@ -1,72 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
-
-:root {
-    --primary: #2F4254;
-    --secondary: #d5a249;
-}
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
 }
 
 .docs-link {
-    float: right;
-    margin-top: 0.5rem;
-    margin-right: 4rem;
-    font-size: 1.25rem;
-    cursor: pointer;
-    text-decoration: none;
-    color: #000;
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 4rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
 }
 
 .main-container {
-    margin: 10rem auto 0 auto;
+  margin: 10rem auto 0 auto;
 }
 
 .main-logo {
-    width: 10rem;
-    display: block;
-    margin: 0 auto;
+  width: 10rem;
+  display: block;
+  margin: 0 auto;
 }
 
 .main-desc {
-    font-size: 1.5rem;
-    max-width: 25rem;
-    text-align: center;
-    margin: 3rem auto;
+  font-size: 1.5rem;
+  max-width: 25rem;
+  text-align: center;
+  margin: 3rem auto;
 }
 
 .button-container {
-    max-width: max-content;
-    margin: 0 auto;
+  max-width: max-content;
+  margin: 0 auto;
 }
 
 .main-start,
 .main-github {
-    border: none;
-    background-color: var(--primary);
-    color: #fff;
-    height: 3rem;
-    width: 10.5rem;
-    font-size: 1.1rem;
-    border-radius: 2rem;
-    margin: 0 0.75rem;
-    cursor: pointer;
-    padding: 0.75rem 2.25rem;
-    text-decoration: none;
+  border: none;
+  background-color: var(--primary);
+  color: #fff;
+  height: 3rem;
+  width: 10.5rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  margin: 0 0.75rem;
+  cursor: pointer;
+  padding: 0.75rem 2.25rem;
+  text-decoration: none;
 }
 
 .main-github {
-    border: solid 2px var(--primary);
-    background-color: transparent;
-    color: var(--primary);
+  border: solid 2px var(--primary);
+  background-color: transparent;
+  color: var(--primary);
 }
 
 .main-inverted-heading {
-    color: var(--primary);
-    font-weight: 600;
+  color: var(--primary);
+  font-weight: 600;
 }
-

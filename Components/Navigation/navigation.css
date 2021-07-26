@@ -1,45 +1,45 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    border: none;
-    position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: var(--white);
+  border: none;
+  position: relative;
 }
 
 .nav-header {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary);
 }
 
 .nav-list li {
-    display: inline;
-    padding: 0 0.75rem;
-    color: rgb(51, 51, 51);
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    transition: all 0.1s ease-in-out;
+  display: inline;
+  padding: 0 0.75rem;
+  color: var(--black-2);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: all 0.1s ease-in-out;
 }
 
 .nav-list li:hover {
-    color: var(--primary);
-    font-weight: bold;
-    border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
 }
 
 .nav-logo {
-    padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .nav-logo img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .nav-logo .nav-header {
-    padding: 0 0.5rem;
-    position: absolute;
-    cursor: pointer;
+  padding: 0 0.5rem;
+  position: absolute;
+  cursor: pointer;
 }

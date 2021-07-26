@@ -1,12 +1,38 @@
 :root {
   --primary: #2f4254;
+  --primary-hover: #202e3a;
+  --primary-text: #bae6fd;
   --secondary: #d5a249;
+  --secondary-hover: #bf9141;
+  --success: #52a552;
+  --success-hover: #499449;
+  --success-text: #dcfce7;
+  --danger: #b91c1c;
+  --danger-hover: #991b1b;
+  --danger-text: #fee2e2;
+  --warning: #ff4500;
+  --warning-hover: #e53e00;
+  --warning-text: #ffedd5;
+  --pink: #ff363c;
+  --white: #fff;
+  --light-grey-1: #f9fafb;
+  --light-grey-2: #ebebeb;
+  --light-grey-3: #d7d7d7;
+  --dark-grey-1: #666;
+  --black-1: #111;
+  --black-2: #333;
+  --dark-blue: #1a242e;
+  --dark-green: #178344;
 }
 
 /* Display */
 .disp-flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
 }
 
 .justify-between {
@@ -27,6 +53,14 @@
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 /* Padding */
@@ -195,4 +229,32 @@
 .my-5 {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.mt-05 {
+  margin-top: 0.5em;
+}
+.mt-1 {
+  margin-top: 1em;
+}
+
+.mb-05 {
+  margin-bottom: 0.5em;
+}
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mr-05 {
+  margin-right: 0.5em;
+}
+.mr-1 {
+  margin-right: 1em;
+}
+
+.ml-05 {
+  margin-left: 0.5em;
+}
+.ml-1 {
+  margin-left: 1em;
 }

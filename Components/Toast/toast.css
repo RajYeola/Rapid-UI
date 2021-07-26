@@ -3,7 +3,6 @@
 #danger-toast {
   visibility: hidden;
   min-width: 250px;
-  color: #fff;
   text-align: center;
   border-radius: 5px;
   padding: 1em;
@@ -14,15 +13,18 @@
 }
 
 #success-toast {
-  background-color: #52a552;
+  color: var(--success-text);
+  background-color: var(--success);
 }
 
 #warning-toast {
-  background-color: #ff4500;
+  color: var(--warning-text);
+  background-color: var(--warning);
 }
 
 #danger-toast {
-  background-color: #b91c1c;
+  color: var(--danger-text);
+  background-color: var(--danger);
 }
 
 #success-toast.show,

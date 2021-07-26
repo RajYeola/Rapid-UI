@@ -1,20 +1,20 @@
 .input-basic {
-    border: none;
-    outline: none;
-    border-bottom: 2px solid rgb(200,200,200);
-    height: 2rem;
-    width: 20rem;
-    font-family: inherit;
-    font-size: 1rem;
-    transition: all 0.5s ease-in-out;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--light-grey-3);
+  height: 2rem;
+  width: 20rem;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
 }
 
 .input-basic:focus {
-    border-bottom: 2px solid var(--secondary);
-    font-weight: bold;
+  border-bottom: 2px solid var(--secondary);
+  font-weight: bold;
 }
 
 .input-basic::placeholder {
-    font-size: 1rem;
-    font-weight: normal;
+  font-size: 1rem;
+  font-weight: normal;
 }

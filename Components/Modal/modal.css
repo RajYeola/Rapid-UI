@@ -1,63 +1,63 @@
 .btn {
-    border: none;
-    padding: 0.5rem 0.75rem;
-    font-family: inherit;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    width: fit-content;
-    cursor: pointer;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  width: fit-content;
+  cursor: pointer;
 }
 
 .btn-secondary {
-    background-color: var(--secondary);
-    color: #fff;
+  background-color: var(--secondary);
+  color: var(--white);
 }
 
 .btn-dark {
-    color: #fff;
-    background-color: #444;
-    transition: 0.3s all;
+  color: var(--white);
+  background-color: var(--black-2);
+  transition: 0.3s all;
 }
 
 .btn-dismiss {
-    padding: 0.01rem 0.4rem 0.2rem 0.4rem;
-    border-radius: 50%;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+  padding: 0.01rem 0.4rem 0.2rem 0.4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .btn-dark:hover {
-    background-color: #333;
+  background-color: var(--black-1);
 }
 
 .modal-container {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 15rem;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 15rem;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
-    margin: auto;
-    padding: 2rem;
-    width: 50%;
+  margin: auto;
+  padding: 2rem;
+  width: 50%;
 }
 
 .modal-container .card:hover {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .card {
-    min-width: 15rem;
-    border-radius: 15px;
-    background-color: #fff;
-    transition: 0.2s all;
-    position: relative;
+  min-width: 15rem;
+  border-radius: 15px;
+  background-color: var(--white);
+  transition: 0.2s all;
+  position: relative;
 }
