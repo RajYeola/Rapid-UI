@@ -307,4 +307,8 @@
   .out-of-stock-text {
     font-size: 0.78125rem;
   }
+
+  .card:hover {
+    transform: none;
+  }
 }
